@@ -30,7 +30,7 @@ function Nasa() {
           <div>
             <h3>{nasaData.title}</h3>
             <p>{nasaData.explanation}</p>
-            <p>{nasaData.url}</p>
+            <a href={nasaData.url} target="_blank" rel="noopener noreferrer">WHOOPTY</a>
           </div>
         ) : (
           <p>Loading...</p>

@@ -12,6 +12,7 @@ import SubmitForm from './pages/SubmitForm'
 import Register from './pages/Register'
 import Users from './pages/Users'
 import Nasa from './pages/Nasa'
+import Git from './pages/Git'
 
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
         <Route path='/multiform' element={<Multiform/>} />
         <Route path='/users' element={<Users />}  />
         <Route path='/nasa' element={<Nasa />}  />
+        <Route path='/github' element={<Git />}  />
         <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
