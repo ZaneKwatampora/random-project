@@ -7,8 +7,8 @@ const Footer = () => {
       <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left flex-grow">
         {/* Company Info */}
         <div>
-          <h2 className="text-xl font-bold mb-3">Company Name</h2>
-          <p className="text-gray-400">Your company tagline or description goes here.</p>
+          <h2 className="text-xl font-bold mb-3">Bookify</h2>
+          <p className="text-gray-400">Your favourite book store.</p>
         </div>
         {/* Quick Links */}
         <div>

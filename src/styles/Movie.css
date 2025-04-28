@@ -1,0 +1,56 @@
+.mainMovie {
+    display: grid;
+    justify-content: center;
+    margin: 50px;
+}
+
+.mainMovie h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.mainSearchMovie {
+    border: 2px solid black;
+    margin-bottom: 20px;
+
+    .mainSearchMovie {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
+
+.mainSearchMovie input[type="text"] {
+    border: none;
+    padding: 0px 10px;
+    outline: none;
+}
+
+.mainSearchMovie button {
+    padding: 5px 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: lightgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mainCardMovie h2 {
+    padding: 1px;
+    margin-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+}
+
+.mainCardMovie ul {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+}
